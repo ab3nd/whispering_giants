@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Locations of Whispering Giants Sculptures</name>
+    <description>The Trail of Whispering Giants is a set of large sculptures of Native Americans created by Peter Wolf Toth between about 1972 and 2009. This is approximately where they are located. </description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Whispering Giant Locations</name>
+      <Placemark>
+        <name>Main Branch - Dothan Houston County Library System</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.39469,31.2287098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prince William Sound College</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -146.3548797,61.1342191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winslow Visitor Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7032418,35.0251292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arkansas Arts Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.2663244,34.7381907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Cabot's Pueblo Museum]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.4815188,33.9578948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bethany Beach
+</name>
+        <description>Chief Little Owl</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0589729,38.5382336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>300 W Retta Esplanade</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -82.054447,26.93555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colquitt</name>
+        <description>Replaced #4, Chamber of Commerce building near Highway 27</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7332527,31.1712935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>59-254 Kamehameha Hwy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -158.0456692,21.6683248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Tourist Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0150755,43.5109634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sparland</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4384235,41.0286473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ottawa Visitors Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8415495,41.3502219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Starved Rock State Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.9934423,41.3197632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tecumseh</name>
+        <description><![CDATA[There's a road named after him intersecting S 1st St]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -87.527183,38.6838306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iowa Falls</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2645741,42.5198868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osceola</name>
+        <description>Destroyed by wind and flood in 1993, replacement created by Jesse Kuhs</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -93.766759,41.0342618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foster Boulevard</name>
+        <description>Near the Veterans Memorial, overlooking the river. Apparently replaced #28,</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2710121,42.5190139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Troy</name>
+        <description>Near the Doniphan County Courthouse</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -95.0890088,39.7862467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Noble Park</name>
+        <description>Restored in summer 2016</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6374463,37.0836671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Harbor</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -68.2039123,44.3876119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winnipeg Beach</name>
+        <description>In the town square</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.9753962,50.5067073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Assateague</name>
+        <description><![CDATA[Listed as being at 2nd and Baltimore, but I think it's at the Inlet parking lot now.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0851262,38.3335185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Probably real location of Assateague Indian
+</name>
+        <description>I think they moved it.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0879908,38.3253042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plymouth Tourist Information Center</name>
+        <description>Visible from highway as of 10/17</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.6613362,41.9362116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forest Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5648468,42.075628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nee-Gaw-Nee-Gaw-Bow</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9409378,46.4784405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Two Harbors</name>
+        <description>Information Center 8 Highway 61 East</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -91.6707322,47.0227111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crooked Feather, 30-Foot-Tall Indian Head</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8359253,30.4148061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forest Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.2842393,38.6382974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Lodge Carnegie Library</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.2473554,45.1900946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indian Center</name>
+        <description>One of two Indian Centers in this town...</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.680677,40.832998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indian Center, INC</name>
+        <description>The other Indian Center in Lincoln.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7050075,40.8310355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Idlewild Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8329796,39.5218409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opechee Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.4742578,43.536518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Cruces</name>
+        <description>Southeast of Hwy 70</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -106.7636538,32.3199396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunkirk</name>
+        <description>On Lakeshore Drive West/Rt 5</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3339324,42.4795019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greenfield Street</name>
+        <description><![CDATA[Greenfield Park, actually. According to wikipedia, "In 1979, the statue was moved from Greenfield Park to a walking trail near the "Lion's Bridge". In 1986, it was moved again to Buckhead, NC.[39] Replaced by Statue #71."]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.9377805,34.217108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museum of the Cherokee Indian</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.316351,35.4845913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waccamaw Siouan Tribal Housing</name>
+        <description>On the Waccamaw Siouan reservation near Buckhead, NC</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -78.4033219,34.3730266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Carolina Museum of Natural Sciences at Whiteville</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.7027509,34.3258202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>601 6th Ave SE</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.8811438,46.8205645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Akron</name>
+        <description>Two in Akron</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -81.5190053,41.0814447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairlawn Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -81.5842868,41.1178332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken Bow</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.7391045,34.0292764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Bay</name>
+        <description>At the welcome center</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4608204,46.3091152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shute Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9755927,45.5137483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Youngs Bay Bridge</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.8703895,46.1744607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sharon</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -80.4934035,41.2331116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brandon Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0036159,41.2491653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sprague Memorial Field</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.4703798,41.4348328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charles Towne Landing State Historic Site</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.9951763,32.8103123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museum Center at 5ive Points</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.874171,35.15789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnson City</name>
+        <description>At Metro-Kiwanis Park</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -82.3534727,36.3134397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murray City Park Playground</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8827958,40.6600462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Battery Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.2198861,44.481301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Trashmore Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.1236238,36.8303786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vancouver</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6716063,45.6318397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wheeling</name>
+        <description><![CDATA[Wikipedia says "Destroyed by dutch elm disease" which is bonkers, since the tree was dead when he carved it...]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -80.7209149,40.0639616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hayward</name>
+        <description>At the Carnegie Library</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -91.4846208,46.0130065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washakie County Courthouse</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.9551255,44.0171192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>212 W Burdeshaw St</name>
+        <description>http://www.dcschumaker.com/statue_05.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3952319,31.228544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Likely location of #40
+</name>
+        <description>http://www.dcschumaker.com/statue_40.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -146.3546276,61.1309248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Likely location of #33
+</name>
+        <description>http://www.dcschumaker.com/statue_33.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -110.701611,35.0238025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>#13 possibly in this area
+</name>
+        <description><![CDATA[http://www.dcschumaker.com/statue_13.htm  <br>Structure around it will likely make scanning hard]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -92.2654366,34.7474751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DC Alexander Park</name>
+        <description>http://www.dcschumaker.com/statue_44.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -80.1034553,26.1297614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>500 S Atlantic Blvd</name>
+        <description>http://www.dcschumaker.com/statue_44.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -80.1046822,26.1166448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>39 Hopewell Dr</name>
+        <description>http://www.dcschumaker.com/statue_16.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -89.4512631,40.9872568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allen Park</name>
+        <description>Likely location of #61</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8446037,41.3406088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>More likely location for #68
+</name>
+        <description>http://www.dcschumaker.com/statue_28.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2720536,42.5206402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Likely location of #12
+</name>
+        <description><![CDATA[Appears to be in poor shape <br>http://www.dcschumaker.com/statue_12.htm]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0129926,29.9074038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>409 ME-3</name>
+        <description><![CDATA[http://www.dcschumaker.com/statue_46.htm<br><br>Number 46]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -68.2689165,44.432668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Location of #25
+</name>
+        <description>Reported by http://www.dcschumaker.com/statue_25.htm</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -91.6637796,47.026069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Probably Missing Giants</name>
+      <Placemark>
+        <name>Texarkana</name>
+        <description>Missing, status unknown</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -94.0476882,33.425125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waialua</name>
+        <description>Note: The latter part of 2008, the statue was removed from its location and the property was razed by the City. For some reason, the statue reappeared, planted in the middle of a compost pile in its new location. Its fate is unknown as of this writing. -- from http://www.dcschumaker.com/statue_58.htm</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -158.1302777,21.5766667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Potter Park Zoo</name>
+        <description><![CDATA[Removed 2012<br>"Sadly this statue has been removed by the Zoo administration. It suffered wood rot and the base deteriorated, making it unsafe. They deemed it too costly to repair." --from http://www.dcschumaker.com/statue_15.htm]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5276713,42.7178696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Jolla</name>
+        <description>Rock on beach cliff, lost, possibly destroyed</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -117.2712717,32.8328112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DeLand</name>
+        <description>Destroyed by rot</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -81.3031179,29.028318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Groton</name>
+        <description><![CDATA[Wikipedia lists it as "in storage"]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -72.0767072,41.3522145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Orleans</name>
+        <description><![CDATA[Listed on Wikipedia as "in storage"]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0715323,29.9510658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atlantic City</name>
+        <description>Missing, Status unknown (according to wikipedia)</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -74.4229266,39.3642834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Wayne</name>
+        <description>Wikipedia reports destroyed by termites</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1393513,41.079273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Windansea Beach</name>
+        <description>Probable location of the lost sculpture</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -117.2811488,32.8311587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -55,7 +55,7 @@ def greedy_route(graph, startCity):
 	#Now we're done, and have an ordered list of cities, plus the total distance
 	print route
 	print totalLength
-
+	return totalLength, route
 			
 def two_opt_route(graph):
 	#Pick a totally stupid random route
@@ -98,9 +98,28 @@ networkx.write_dot(G, "trip.dot")
 #According to wikipedia, this averages a path 25% longer than the shortest possible,
 #but certain pathological arrangements can cause it to pick the worst route. 
 #I somehow doubt that Mr Toth set me up like that. 
-cities = list(G.nodes())
-random.shuffle(cities)
-start = cities.pop()
-greedy_route(G, start)
+#cities = list(G.nodes())
+#random.shuffle(cities)
+#start = cities.pop()
+#greedy_route(G, start)
 
+#For each start city, pick a greedy route and see how long it is
+max_len = float('inf')
+best_route = None
+count = 0
+totalLen = 0
 
+for start_city in list(G.nodes()):
+	length, route = greedy_route(G, start_city)
+	#For calculating the average greedy route
+	totalLen += length
+	count += 1
+	#Save the best
+	if length < max_len:
+		max_len = length
+		best_route = route
+
+print max_len
+print route
+print "Average greedy route {0}".format(totalLen/count)
+	

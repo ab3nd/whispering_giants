@@ -108,6 +108,7 @@ max_len = float('inf')
 best_route = None
 count = 0
 totalLen = 0
+lengths  = []
 
 for start_city in list(G.nodes()):
 	length, route = greedy_route(G, start_city)
@@ -118,8 +119,11 @@ for start_city in list(G.nodes()):
 	if length < max_len:
 		max_len = length
 		best_route = route
+	#save all the lengths
+	lengths.append(length)
 
 print max_len
 print route
 print "Average greedy route {0}".format(totalLen/count)
+print lengths
 	

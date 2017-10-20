@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "Compass Harbor Ln, Bar Harbor, ME 04609, USA",
+      "895-911 NH-106, Laconia, NH 03246, USA",
+      "MA-3, Plymouth, MA 02360, USA",
+      "10 Monroe St, Burlington, VT 05401, USA",
+      "200 Kingstown Rd, Narragansett, RI 02882, USA",
+      "1001 Packer St, Williamsport, PA 17701, USA",
+      "214 DE-26, Bethany Beach, DE 19930, USA",
+      "180-198 MD-378, Ocean City, MD 21842, USA",
+      "Ocean City Life-Saving Station, Ocean City, MD 21842, USA",
+      "11 W 6th St, Dunkirk, NY 14048, USA"
+   ],
+   "origin_addresses" : [ "409 ME-3, Bar Harbor, ME 04609, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "7.0 mi",
+                  "value" : 11244
+               },
+               "duration" : {
+                  "text" : "17 mins",
+                  "value" : 1028
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "248 mi",
+                  "value" : 399561
+               },
+               "duration" : {
+                  "text" : "4 hours 45 mins",
+                  "value" : 17114
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "316 mi",
+                  "value" : 508538
+               },
+               "duration" : {
+                  "text" : "5 hours 12 mins",
+                  "value" : 18707
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "335 mi",
+                  "value" : 538534
+               },
+               "duration" : {
+                  "text" : "6 hours 34 mins",
+                  "value" : 23635
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "362 mi",
+                  "value" : 582111
+               },
+               "duration" : {
+                  "text" : "5 hours 52 mins",
+                  "value" : 21119
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "642 mi",
+                  "value" : 1033605
+               },
+               "duration" : {
+                  "text" : "10 hours 23 mins",
+                  "value" : 37402
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "702 mi",
+                  "value" : 1129633
+               },
+               "duration" : {
+                  "text" : "11 hours 17 mins",
+                  "value" : 40641
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "718 mi",
+                  "value" : 1154718
+               },
+               "duration" : {
+                  "text" : "11 hours 36 mins",
+                  "value" : 41743
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "718 mi",
+                  "value" : 1155215
+               },
+               "duration" : {
+                  "text" : "11 hours 37 mins",
+                  "value" : 41800
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "764 mi",
+                  "value" : 1228856
+               },
+               "duration" : {
+                  "text" : "11 hours 38 mins",
+                  "value" : 41902
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

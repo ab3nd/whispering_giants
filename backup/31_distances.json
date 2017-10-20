@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "300-398 Oakes Ave N, Red Lodge, MT 59068, USA",
+      "901-905 Lincoln Rd, Idaho Falls, ID 83401, USA",
+      "202 E Murray Park Ave, Murray, UT 84107, USA",
+      "612-614 ND-1806, Mandan, ND 58554, USA",
+      "1110-1208 Military Rd, Lincoln, NE 68508, USA",
+      "2001-2035 N 28th St, Lincoln, NE 68503, USA",
+      "523 Old Hwy 66, Winslow, AZ 86047, USA",
+      "401 W 1st St, Winslow, AZ 86047, USA",
+      "150 Cowan Dr, Reno, NV 89509, USA",
+      "120 E Walnut St, Troy, KS 66087, USA"
+   ],
+   "origin_addresses" : [ "1027-1083 US-16, Worland, WY 82401, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "141 mi",
+                  "value" : 227543
+               },
+               "duration" : {
+                  "text" : "2 hours 28 mins",
+                  "value" : 8882
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "333 mi",
+                  "value" : 535618
+               },
+               "duration" : {
+                  "text" : "6 hours 6 mins",
+                  "value" : 21963
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "397 mi",
+                  "value" : 639555
+               },
+               "duration" : {
+                  "text" : "6 hours 21 mins",
+                  "value" : 22879
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "571 mi",
+                  "value" : 918864
+               },
+               "duration" : {
+                  "text" : "8 hours 24 mins",
+                  "value" : 30267
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "787 mi",
+                  "value" : 1266290
+               },
+               "duration" : {
+                  "text" : "11 hours 17 mins",
+                  "value" : 40636
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "788 mi",
+                  "value" : 1268417
+               },
+               "duration" : {
+                  "text" : "11 hours 20 mins",
+                  "value" : 40779
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "911 mi",
+                  "value" : 1466625
+               },
+               "duration" : {
+                  "text" : "14 hours 37 mins",
+                  "value" : 52645
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "908 mi",
+                  "value" : 1461505
+               },
+               "duration" : {
+                  "text" : "14 hours 37 mins",
+                  "value" : 52647
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "913 mi",
+                  "value" : 1469697
+               },
+               "duration" : {
+                  "text" : "13 hours 34 mins",
+                  "value" : 48830
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "932 mi",
+                  "value" : 1500484
+               },
+               "duration" : {
+                  "text" : "13 hours 41 mins",
+                  "value" : 49236
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "99 Hart St, Vincennes, IN 47591, USA",
+      "Concourse Dr, St. Louis, MO 63110, USA",
+      "100 1st St SE, Cleveland, TN 37311, USA",
+      "500 President Clinton Ave, Little Rock, AR 72201, USA",
+      "MacArthur Park, Little Rock, AR 72202, USA",
+      "11-49 Hopewell Dr, Hopewell, IL 61565, USA",
+      "735-741 IL-29, Sparland, IL 61565, USA",
+      "Bluff Trail, Oglesby, IL 61348, USA",
+      "IL-71, Ottawa, IL 61350, USA",
+      "1002 Columbus St, Ottawa, IL 61350, USA"
+   ],
+   "origin_addresses" : [ "2801-2863 US-60, Paducah, KY 42001, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "154 mi",
+                  "value" : 247256
+               },
+               "duration" : {
+                  "text" : "3 hours 4 mins",
+                  "value" : 11019
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "178 mi",
+                  "value" : 285989
+               },
+               "duration" : {
+                  "text" : "2 hours 43 mins",
+                  "value" : 9774
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "301 mi",
+                  "value" : 484106
+               },
+               "duration" : {
+                  "text" : "4 hours 29 mins",
+                  "value" : 16122
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "317 mi",
+                  "value" : 510220
+               },
+               "duration" : {
+                  "text" : "4 hours 54 mins",
+                  "value" : 17622
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "318 mi",
+                  "value" : 510989
+               },
+               "duration" : {
+                  "text" : "4 hours 54 mins",
+                  "value" : 17659
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "332 mi",
+                  "value" : 533686
+               },
+               "duration" : {
+                  "text" : "5 hours 2 mins",
+                  "value" : 18099
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "347 mi",
+                  "value" : 558337
+               },
+               "duration" : {
+                  "text" : "5 hours 4 mins",
+                  "value" : 18227
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "351 mi",
+                  "value" : 564300
+               },
+               "duration" : {
+                  "text" : "5 hours 6 mins",
+                  "value" : 18348
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "357 mi",
+                  "value" : 574409
+               },
+               "duration" : {
+                  "text" : "5 hours 14 mins",
+                  "value" : 18849
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "358 mi",
+                  "value" : 575892
+               },
+               "duration" : {
+                  "text" : "5 hours 17 mins",
+                  "value" : 19031
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

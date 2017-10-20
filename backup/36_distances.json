@@ -1,0 +1,134 @@
+{
+   "destination_addresses" : [
+      "501-543 S Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA",
+      "300 W Retta Esplanade, Punta Gorda, FL 33950, USA",
+      "144-156 College St, Colquitt, GA 39837, USA",
+      "Old Town Plantation Rd, Charleston, SC 29407, USA",
+      "200-204 W Newton St, Dothan, AL 36303, USA",
+      "405 N Lena St, Dothan, AL 36303, USA",
+      "421 S Madison St, Whiteville, NC 28472, USA",
+      "701-715 Greenfield St, Wilmington, NC 28401, USA",
+      "6849-6855 Old Lake Rd, Bolton, NC 28423, USA",
+      "500 Bienville Blvd, Ocean Springs, MS 39564, USA"
+   ],
+   "origin_addresses" : [
+      "517-521 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA"
+   ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "1.2 mi",
+                  "value" : 2003
+               },
+               "duration" : {
+                  "text" : "5 mins",
+                  "value" : 279
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "168 mi",
+                  "value" : 269725
+               },
+               "duration" : {
+                  "text" : "2 hours 33 mins",
+                  "value" : 9186
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "519 mi",
+                  "value" : 835657
+               },
+               "duration" : {
+                  "text" : "7 hours 40 mins",
+                  "value" : 27582
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "562 mi",
+                  "value" : 905121
+               },
+               "duration" : {
+                  "text" : "8 hours 21 mins",
+                  "value" : 30073
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "562 mi",
+                  "value" : 904147
+               },
+               "duration" : {
+                  "text" : "8 hours 12 mins",
+                  "value" : 29522
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "562 mi",
+                  "value" : 904225
+               },
+               "duration" : {
+                  "text" : "8 hours 13 mins",
+                  "value" : 29556
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "716 mi",
+                  "value" : 1151832
+               },
+               "duration" : {
+                  "text" : "10 hours 9 mins",
+                  "value" : 36560
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "761 mi",
+                  "value" : 1224978
+               },
+               "duration" : {
+                  "text" : "10 hours 52 mins",
+                  "value" : 39095
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "733 mi",
+                  "value" : 1179824
+               },
+               "duration" : {
+                  "text" : "10 hours 25 mins",
+                  "value" : 37484
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "758 mi",
+                  "value" : 1219235
+               },
+               "duration" : {
+                  "text" : "10 hours 48 mins",
+                  "value" : 38878
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

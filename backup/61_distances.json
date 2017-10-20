@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "200-204 W Newton St, Dothan, AL 36303, USA",
+      "144-156 College St, Colquitt, GA 39837, USA",
+      "500 Bienville Blvd, Ocean Springs, MS 39564, USA",
+      "100 1st St SE, Cleveland, TN 37311, USA",
+      "Tullis Dr, New Orleans, LA 70114, USA",
+      "State Rd 1361, Cherokee, NC 28719, USA",
+      "Old Town Plantation Rd, Charleston, SC 29407, USA",
+      "300 W Retta Esplanade, Punta Gorda, FL 33950, USA",
+      "301-399 Cherry St, Johnson City, TN 37615, USA",
+      "421 S Madison St, Whiteville, NC 28472, USA"
+   ],
+   "origin_addresses" : [ "405 N Lena St, Dothan, AL 36303, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "0.1 mi",
+                  "value" : 172
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 43
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "47.8 mi",
+                  "value" : 76847
+               },
+               "duration" : {
+                  "text" : "55 mins",
+                  "value" : 3275
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "248 mi",
+                  "value" : 399514
+               },
+               "duration" : {
+                  "text" : "3 hours 57 mins",
+                  "value" : 14213
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "323 mi",
+                  "value" : 519033
+               },
+               "duration" : {
+                  "text" : "5 hours 8 mins",
+                  "value" : 18491
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "341 mi",
+                  "value" : 548439
+               },
+               "duration" : {
+                  "text" : "5 hours 20 mins",
+                  "value" : 19216
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "368 mi",
+                  "value" : 592201
+               },
+               "duration" : {
+                  "text" : "6 hours 3 mins",
+                  "value" : 21806
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "403 mi",
+                  "value" : 648995
+               },
+               "duration" : {
+                  "text" : "7 hours 5 mins",
+                  "value" : 25498
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "472 mi",
+                  "value" : 759048
+               },
+               "duration" : {
+                  "text" : "6 hours 50 mins",
+                  "value" : 24620
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "472 mi",
+                  "value" : 759998
+               },
+               "duration" : {
+                  "text" : "7 hours 30 mins",
+                  "value" : 26996
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "571 mi",
+                  "value" : 918553
+               },
+               "duration" : {
+                  "text" : "8 hours 24 mins",
+                  "value" : 30255
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

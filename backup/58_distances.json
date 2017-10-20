@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "2001-2035 N 28th St, Lincoln, NE 68503, USA",
+      "156-164 W Washington St, Osceola, IA 50213, USA",
+      "1110-1208 Military Rd, Lincoln, NE 68508, USA",
+      "200-298 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "300-498 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "601-607 Washington Ave, Iowa Falls, IA 50126, USA",
+      "Concourse Dr, St. Louis, MO 63110, USA",
+      "11-49 Hopewell Dr, Hopewell, IL 61565, USA",
+      "735-741 IL-29, Sparland, IL 61565, USA",
+      "Bluff Trail, Oglesby, IL 61348, USA"
+   ],
+   "origin_addresses" : [ "120 E Walnut St, Troy, KS 66087, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "145 mi",
+                  "value" : 233764
+               },
+               "duration" : {
+                  "text" : "2 hours 36 mins",
+                  "value" : 9355
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "144 mi",
+                  "value" : 231008
+               },
+               "duration" : {
+                  "text" : "2 hours 14 mins",
+                  "value" : 8046
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "146 mi",
+                  "value" : 235066
+               },
+               "duration" : {
+                  "text" : "2 hours 35 mins",
+                  "value" : 9296
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "272 mi",
+                  "value" : 437984
+               },
+               "duration" : {
+                  "text" : "4 hours 6 mins",
+                  "value" : 14740
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "271 mi",
+                  "value" : 435999
+               },
+               "duration" : {
+                  "text" : "4 hours 6 mins",
+                  "value" : 14782
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "272 mi",
+                  "value" : 437542
+               },
+               "duration" : {
+                  "text" : "4 hours 5 mins",
+                  "value" : 14710
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "312 mi",
+                  "value" : 501368
+               },
+               "duration" : {
+                  "text" : "4 hours 45 mins",
+                  "value" : 17121
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "402 mi",
+                  "value" : 646746
+               },
+               "duration" : {
+                  "text" : "6 hours 8 mins",
+                  "value" : 22056
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "404 mi",
+                  "value" : 650581
+               },
+               "duration" : {
+                  "text" : "6 hours 10 mins",
+                  "value" : 22188
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "435 mi",
+                  "value" : 699806
+               },
+               "duration" : {
+                  "text" : "6 hours 29 mins",
+                  "value" : 23324
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

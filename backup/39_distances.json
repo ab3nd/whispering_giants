@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "State Rd 1361, Cherokee, NC 28719, USA",
+      "301-399 Cherry St, Johnson City, TN 37615, USA",
+      "2799 US-60 BUS, Paducah, KY 42001, USA",
+      "200-204 W Newton St, Dothan, AL 36303, USA",
+      "405 N Lena St, Dothan, AL 36303, USA",
+      "144-156 College St, Colquitt, GA 39837, USA",
+      "99 Hart St, Vincennes, IN 47591, USA",
+      "Old Town Plantation Rd, Charleston, SC 29407, USA",
+      "421 S Madison St, Whiteville, NC 28472, USA",
+      "6849-6855 Old Lake Rd, Bolton, NC 28423, USA"
+   ],
+   "origin_addresses" : [ "100 1st St SE, Cleveland, TN 37311, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "117 mi",
+                  "value" : 187704
+               },
+               "duration" : {
+                  "text" : "2 hours 29 mins",
+                  "value" : 8922
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "188 mi",
+                  "value" : 301924
+               },
+               "duration" : {
+                  "text" : "2 hours 53 mins",
+                  "value" : 10393
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "302 mi",
+                  "value" : 485607
+               },
+               "duration" : {
+                  "text" : "4 hours 29 mins",
+                  "value" : 16114
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "322 mi",
+                  "value" : 517990
+               },
+               "duration" : {
+                  "text" : "5 hours 8 mins",
+                  "value" : 18499
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "322 mi",
+                  "value" : 518163
+               },
+               "duration" : {
+                  "text" : "5 hours 9 mins",
+                  "value" : 18540
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "327 mi",
+                  "value" : 527010
+               },
+               "duration" : {
+                  "text" : "5 hours 1 min",
+                  "value" : 18062
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "364 mi",
+                  "value" : 585268
+               },
+               "duration" : {
+                  "text" : "5 hours 44 mins",
+                  "value" : 20666
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "422 mi",
+                  "value" : 679510
+               },
+               "duration" : {
+                  "text" : "6 hours 31 mins",
+                  "value" : 23469
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "491 mi",
+                  "value" : 790586
+               },
+               "duration" : {
+                  "text" : "7 hours 14 mins",
+                  "value" : 26039
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "509 mi",
+                  "value" : 818577
+               },
+               "duration" : {
+                  "text" : "7 hours 29 mins",
+                  "value" : 26964
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

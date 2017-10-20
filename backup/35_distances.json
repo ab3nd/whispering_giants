@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "330 MN-61, Two Harbors, MN 55616, USA",
+      "10519 Dakota Ave, Hayward, WI 54843, USA",
+      "673 M-28, Wakefield, MI 49968, USA",
+      "601-607 Washington Ave, Iowa Falls, IA 50126, USA",
+      "300-498 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "200-298 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "Bluff Trail, Oglesby, IL 61348, USA",
+      "100 W Lafayette St, Ottawa, IL 61350, USA",
+      "IL-71, Ottawa, IL 61350, USA",
+      "156-164 W Washington St, Osceola, IA 50213, USA"
+   ],
+   "origin_addresses" : [ "525-531 4th Ave, Two Harbors, MN 55616, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "0.5 mi",
+                  "value" : 884
+               },
+               "duration" : {
+                  "text" : "2 mins",
+                  "value" : 132
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "102 mi",
+                  "value" : 164311
+               },
+               "duration" : {
+                  "text" : "1 hour 53 mins",
+                  "value" : 6800
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "146 mi",
+                  "value" : 235220
+               },
+               "duration" : {
+                  "text" : "2 hours 51 mins",
+                  "value" : 10262
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "360 mi",
+                  "value" : 579319
+               },
+               "duration" : {
+                  "text" : "5 hours 28 mins",
+                  "value" : 19677
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "360 mi",
+                  "value" : 580018
+               },
+               "duration" : {
+                  "text" : "5 hours 29 mins",
+                  "value" : 19747
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "360 mi",
+                  "value" : 579984
+               },
+               "duration" : {
+                  "text" : "5 hours 29 mins",
+                  "value" : 19746
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "490 mi",
+                  "value" : 789120
+               },
+               "duration" : {
+                  "text" : "7 hours 21 mins",
+                  "value" : 26436
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "497 mi",
+                  "value" : 800268
+               },
+               "duration" : {
+                  "text" : "7 hours 26 mins",
+                  "value" : 26780
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "498 mi",
+                  "value" : 801639
+               },
+               "duration" : {
+                  "text" : "7 hours 28 mins",
+                  "value" : 26855
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "470 mi",
+                  "value" : 755977
+               },
+               "duration" : {
+                  "text" : "6 hours 59 mins",
+                  "value" : 25142
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

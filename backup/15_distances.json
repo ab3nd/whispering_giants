@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "523 Old Hwy 66, Winslow, AZ 86047, USA",
+      "401 W 1st St, Winslow, AZ 86047, USA",
+      "150 Cowan Dr, Reno, NV 89509, USA",
+      "202 E Murray Park Ave, Murray, UT 84107, USA",
+      "1337-1399 Lynx Trail, Las Cruces, NM 88001, USA",
+      "901-905 Lincoln Rd, Idaho Falls, ID 83401, USA",
+      "1027-1083 US-16, Worland, WY 82401, USA",
+      "300-398 Oakes Ave N, Red Lodge, MT 59068, USA",
+      "900-998 SE Maple St, Hillsboro, OR 97123, USA",
+      "1313-1399 Main St, Vancouver, WA 98660, USA"
+   ],
+   "origin_addresses" : [ "67587-67699 Desert View Ave, Desert Hot Springs, CA 92240, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "445 mi",
+                  "value" : 716497
+               },
+               "duration" : {
+                  "text" : "6 hours 38 mins",
+                  "value" : 23855
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "445 mi",
+                  "value" : 716785
+               },
+               "duration" : {
+                  "text" : "6 hours 39 mins",
+                  "value" : 23934
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "511 mi",
+                  "value" : 822300
+               },
+               "duration" : {
+                  "text" : "8 hours 36 mins",
+                  "value" : 30934
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "638 mi",
+                  "value" : 1027014
+               },
+               "duration" : {
+                  "text" : "9 hours 31 mins",
+                  "value" : 34244
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "659 mi",
+                  "value" : 1060129
+               },
+               "duration" : {
+                  "text" : "9 hours 29 mins",
+                  "value" : 34155
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "859 mi",
+                  "value" : 1382006
+               },
+               "duration" : {
+                  "text" : "12 hours 33 mins",
+                  "value" : 45191
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,014 mi",
+                  "value" : 1631559
+               },
+               "duration" : {
+                  "text" : "15 hours 37 mins",
+                  "value" : 56206
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,129 mi",
+                  "value" : 1816196
+               },
+               "duration" : {
+                  "text" : "17 hours 30 mins",
+                  "value" : 62977
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,077 mi",
+                  "value" : 1733624
+               },
+               "duration" : {
+                  "text" : "16 hours 18 mins",
+                  "value" : 58694
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,080 mi",
+                  "value" : 1738257
+               },
+               "duration" : {
+                  "text" : "16 hours 10 mins",
+                  "value" : 58202
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

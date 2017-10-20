@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "MacArthur Park, Little Rock, AR 72202, USA",
+      "263-299 W 3rd St, Broken Bow, OK 74728, USA",
+      "2799 US-60 BUS, Paducah, KY 42001, USA",
+      "Concourse Dr, St. Louis, MO 63110, USA",
+      "Tullis Dr, New Orleans, LA 70114, USA",
+      "500 Bienville Blvd, Ocean Springs, MS 39564, USA",
+      "99 Hart St, Vincennes, IN 47591, USA",
+      "120 E Walnut St, Troy, KS 66087, USA",
+      "100 1st St SE, Cleveland, TN 37311, USA",
+      "156-164 W Washington St, Osceola, IA 50213, USA"
+   ],
+   "origin_addresses" : [ "500 President Clinton Ave, Little Rock, AR 72201, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "0.9 mi",
+                  "value" : 1418
+               },
+               "duration" : {
+                  "text" : "6 mins",
+                  "value" : 356
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "174 mi",
+                  "value" : 280767
+               },
+               "duration" : {
+                  "text" : "3 hours 3 mins",
+                  "value" : 10987
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "315 mi",
+                  "value" : 507709
+               },
+               "duration" : {
+                  "text" : "4 hours 52 mins",
+                  "value" : 17499
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "351 mi",
+                  "value" : 564523
+               },
+               "duration" : {
+                  "text" : "5 hours 37 mins",
+                  "value" : 20208
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "433 mi",
+                  "value" : 696107
+               },
+               "duration" : {
+                  "text" : "6 hours 57 mins",
+                  "value" : 24998
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "424 mi",
+                  "value" : 682421
+               },
+               "duration" : {
+                  "text" : "6 hours 58 mins",
+                  "value" : 25063
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "487 mi",
+                  "value" : 783615
+               },
+               "duration" : {
+                  "text" : "7 hours 10 mins",
+                  "value" : 25770
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "488 mi",
+                  "value" : 784997
+               },
+               "duration" : {
+                  "text" : "7 hours 15 mins",
+                  "value" : 26102
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "501 mi",
+                  "value" : 806279
+               },
+               "duration" : {
+                  "text" : "7 hours 23 mins",
+                  "value" : 26551
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "564 mi",
+                  "value" : 908313
+               },
+               "duration" : {
+                  "text" : "8 hours 14 mins",
+                  "value" : 29636
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

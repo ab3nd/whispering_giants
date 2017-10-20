@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "864 E State St, Sharon, PA 16146, USA",
+      "1001 Packer St, Williamsport, PA 17701, USA",
+      "10 W Bowery St, Akron, OH 44308, USA",
+      "2037 Braewick Dr, Akron, OH 44313, USA",
+      "37-47 16th St, Wheeling, WV 26003, USA",
+      "10 Monroe St, Burlington, VT 05401, USA",
+      "214 DE-26, Bethany Beach, DE 19930, USA",
+      "180-198 MD-378, Ocean City, MD 21842, USA",
+      "Ocean City Life-Saving Station, Ocean City, MD 21842, USA",
+      "895-911 NH-106, Laconia, NH 03246, USA"
+   ],
+   "origin_addresses" : [ "11 W 6th St, Dunkirk, NY 14048, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "137 mi",
+                  "value" : 220333
+               },
+               "duration" : {
+                  "text" : "2 hours 9 mins",
+                  "value" : 7764
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "243 mi",
+                  "value" : 390720
+               },
+               "duration" : {
+                  "text" : "3 hours 49 mins",
+                  "value" : 13765
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "172 mi",
+                  "value" : 276410
+               },
+               "duration" : {
+                  "text" : "2 hours 42 mins",
+                  "value" : 9733
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "173 mi",
+                  "value" : 278696
+               },
+               "duration" : {
+                  "text" : "2 hours 45 mins",
+                  "value" : 9928
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "227 mi",
+                  "value" : 365369
+               },
+               "duration" : {
+                  "text" : "3 hours 28 mins",
+                  "value" : 12470
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "412 mi",
+                  "value" : 662985
+               },
+               "duration" : {
+                  "text" : "7 hours 28 mins",
+                  "value" : 26898
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "451 mi",
+                  "value" : 726149
+               },
+               "duration" : {
+                  "text" : "8 hours 28 mins",
+                  "value" : 30502
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "552 mi",
+                  "value" : 887665
+               },
+               "duration" : {
+                  "text" : "8 hours 41 mins",
+                  "value" : 31278
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "552 mi",
+                  "value" : 888161
+               },
+               "duration" : {
+                  "text" : "8 hours 42 mins",
+                  "value" : 31335
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "502 mi",
+                  "value" : 808350
+               },
+               "duration" : {
+                  "text" : "8 hours 28 mins",
+                  "value" : 30509
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "1027-1083 US-16, Worland, WY 82401, USA",
+      "300-398 Oakes Ave N, Red Lodge, MT 59068, USA",
+      "525-531 4th Ave, Two Harbors, MN 55616, USA",
+      "330 MN-61, Two Harbors, MN 55616, USA",
+      "10519 Dakota Ave, Hayward, WI 54843, USA",
+      "1110-1208 Military Rd, Lincoln, NE 68508, USA",
+      "2001-2035 N 28th St, Lincoln, NE 68503, USA",
+      "300-498 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "200-298 Foster Blvd, Iowa Falls, IA 50126, USA",
+      "601-607 Washington Ave, Iowa Falls, IA 50126, USA"
+   ],
+   "origin_addresses" : [ "612-614 ND-1806, Mandan, ND 58554, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "571 mi",
+                  "value" : 919652
+               },
+               "duration" : {
+                  "text" : "8 hours 25 mins",
+                  "value" : 30282
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "470 mi",
+                  "value" : 756111
+               },
+               "duration" : {
+                  "text" : "6 hours 42 mins",
+                  "value" : 24139
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "470 mi",
+                  "value" : 755723
+               },
+               "duration" : {
+                  "text" : "7 hours 45 mins",
+                  "value" : 27923
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "470 mi",
+                  "value" : 755932
+               },
+               "duration" : {
+                  "text" : "7 hours 46 mins",
+                  "value" : 27932
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "517 mi",
+                  "value" : 831308
+               },
+               "duration" : {
+                  "text" : "8 hours 9 mins",
+                  "value" : 29340
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "666 mi",
+                  "value" : 1071622
+               },
+               "duration" : {
+                  "text" : "9 hours 23 mins",
+                  "value" : 33801
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "662 mi",
+                  "value" : 1065176
+               },
+               "duration" : {
+                  "text" : "9 hours 25 mins",
+                  "value" : 33921
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "611 mi",
+                  "value" : 983183
+               },
+               "duration" : {
+                  "text" : "8 hours 53 mins",
+                  "value" : 31967
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "611 mi",
+                  "value" : 983149
+               },
+               "duration" : {
+                  "text" : "8 hours 53 mins",
+                  "value" : 31966
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "610 mi",
+                  "value" : 982484
+               },
+               "duration" : {
+                  "text" : "8 hours 52 mins",
+                  "value" : 31897
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

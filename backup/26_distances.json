@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "6849-6855 Old Lake Rd, Bolton, NC 28423, USA",
+      "421 S Madison St, Whiteville, NC 28472, USA",
+      "Old Town Plantation Rd, Charleston, SC 29407, USA",
+      "South Blvd, Virginia Beach, VA 23452, USA",
+      "301-399 Cherry St, Johnson City, TN 37615, USA",
+      "State Rd 1361, Cherokee, NC 28719, USA",
+      "Ocean City Life-Saving Station, Ocean City, MD 21842, USA",
+      "180-198 MD-378, Ocean City, MD 21842, USA",
+      "214 DE-26, Bethany Beach, DE 19930, USA",
+      "100 1st St SE, Cleveland, TN 37311, USA"
+   ],
+   "origin_addresses" : [ "701-715 Greenfield St, Wilmington, NC 28401, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "32.2 mi",
+                  "value" : 51870
+               },
+               "duration" : {
+                  "text" : "37 mins",
+                  "value" : 2241
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "48.0 mi",
+                  "value" : 77198
+               },
+               "duration" : {
+                  "text" : "52 mins",
+                  "value" : 3140
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "178 mi",
+                  "value" : 286273
+               },
+               "duration" : {
+                  "text" : "3 hours 30 mins",
+                  "value" : 12574
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "285 mi",
+                  "value" : 458099
+               },
+               "duration" : {
+                  "text" : "4 hours 26 mins",
+                  "value" : 15961
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "369 mi",
+                  "value" : 594069
+               },
+               "duration" : {
+                  "text" : "6 hours 15 mins",
+                  "value" : 22528
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "413 mi",
+                  "value" : 664577
+               },
+               "duration" : {
+                  "text" : "6 hours 12 mins",
+                  "value" : 22312
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "415 mi",
+                  "value" : 668034
+               },
+               "duration" : {
+                  "text" : "6 hours 57 mins",
+                  "value" : 25000
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "415 mi",
+                  "value" : 667537
+               },
+               "duration" : {
+                  "text" : "6 hours 56 mins",
+                  "value" : 24943
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "428 mi",
+                  "value" : 688281
+               },
+               "duration" : {
+                  "text" : "7 hours 11 mins",
+                  "value" : 25844
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "537 mi",
+                  "value" : 863805
+               },
+               "duration" : {
+                  "text" : "7 hours 58 mins",
+                  "value" : 28703
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "2037 Braewick Dr, Akron, OH 44313, USA",
+      "864 E State St, Sharon, PA 16146, USA",
+      "37-47 16th St, Wheeling, WV 26003, USA",
+      "11 W 6th St, Dunkirk, NY 14048, USA",
+      "1001 Packer St, Williamsport, PA 17701, USA",
+      "301-399 Cherry St, Johnson City, TN 37615, USA",
+      "99 Hart St, Vincennes, IN 47591, USA",
+      "100 W Lafayette St, Ottawa, IL 61350, USA",
+      "IL-71, Ottawa, IL 61350, USA",
+      "214 DE-26, Bethany Beach, DE 19930, USA"
+   ],
+   "origin_addresses" : [ "10 W Bowery St, Akron, OH 44308, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "4.7 mi",
+                  "value" : 7522
+               },
+               "duration" : {
+                  "text" : "16 mins",
+                  "value" : 986
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "60.8 mi",
+                  "value" : 97885
+               },
+               "duration" : {
+                  "text" : "1 hour 5 mins",
+                  "value" : 3895
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "131 mi",
+                  "value" : 211246
+               },
+               "duration" : {
+                  "text" : "2 hours 2 mins",
+                  "value" : 7347
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "171 mi",
+                  "value" : 275479
+               },
+               "duration" : {
+                  "text" : "2 hours 40 mins",
+                  "value" : 9619
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "268 mi",
+                  "value" : 431874
+               },
+               "duration" : {
+                  "text" : "4 hours 6 mins",
+                  "value" : 14768
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "448 mi",
+                  "value" : 721486
+               },
+               "duration" : {
+                  "text" : "6 hours 41 mins",
+                  "value" : 24060
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "426 mi",
+                  "value" : 686233
+               },
+               "duration" : {
+                  "text" : "6 hours 32 mins",
+                  "value" : 23533
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "425 mi",
+                  "value" : 683742
+               },
+               "duration" : {
+                  "text" : "6 hours 29 mins",
+                  "value" : 23335
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "426 mi",
+                  "value" : 685113
+               },
+               "duration" : {
+                  "text" : "6 hours 30 mins",
+                  "value" : 23410
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "469 mi",
+                  "value" : 753988
+               },
+               "duration" : {
+                  "text" : "7 hours 41 mins",
+                  "value" : 27631
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

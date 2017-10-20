@@ -1,0 +1,132 @@
+{
+   "destination_addresses" : [
+      "180-198 MD-378, Ocean City, MD 21842, USA",
+      "214 DE-26, Bethany Beach, DE 19930, USA",
+      "South Blvd, Virginia Beach, VA 23452, USA",
+      "1001 Packer St, Williamsport, PA 17701, USA",
+      "200 Kingstown Rd, Narragansett, RI 02882, USA",
+      "37-47 16th St, Wheeling, WV 26003, USA",
+      "701-715 Greenfield St, Wilmington, NC 28401, USA",
+      "6849-6855 Old Lake Rd, Bolton, NC 28423, USA",
+      "421 S Madison St, Whiteville, NC 28472, USA",
+      "MA-3, Plymouth, MA 02360, USA"
+   ],
+   "origin_addresses" : [ "Ocean City Life-Saving Station, Ocean City, MD 21842, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "0.7 mi",
+                  "value" : 1057
+               },
+               "duration" : {
+                  "text" : "4 mins",
+                  "value" : 234
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "15.2 mi",
+                  "value" : 24394
+               },
+               "duration" : {
+                  "text" : "39 mins",
+                  "value" : 2362
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "136 mi",
+                  "value" : 219106
+               },
+               "duration" : {
+                  "text" : "2 hours 49 mins",
+                  "value" : 10133
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "314 mi",
+                  "value" : 505125
+               },
+               "duration" : {
+                  "text" : "5 hours 23 mins",
+                  "value" : 19371
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "402 mi",
+                  "value" : 646329
+               },
+               "duration" : {
+                  "text" : "6 hours 54 mins",
+                  "value" : 24831
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "429 mi",
+                  "value" : 690651
+               },
+               "duration" : {
+                  "text" : "6 hours 53 mins",
+                  "value" : 24755
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "417 mi",
+                  "value" : 671101
+               },
+               "duration" : {
+                  "text" : "7 hours 4 mins",
+                  "value" : 25431
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "422 mi",
+                  "value" : 678924
+               },
+               "duration" : {
+                  "text" : "7 hours 15 mins",
+                  "value" : 26108
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "416 mi",
+                  "value" : 669931
+               },
+               "duration" : {
+                  "text" : "7 hours 11 mins",
+                  "value" : 25845
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "471 mi",
+                  "value" : 757717
+               },
+               "duration" : {
+                  "text" : "7 hours 52 mins",
+                  "value" : 28292
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

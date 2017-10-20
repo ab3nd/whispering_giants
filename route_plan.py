@@ -13,6 +13,32 @@ from math import pi, acos, sin, cos
 #that going from one place to another is not significantly different from going back. 
 G = networkx.Graph()
 
+
+#Plot a route on a map
+def plotRoute(locations, route):
+	from mpl_toolkits.basemap import Basemap
+	import numpy as np
+	import matplotlib.pyplot as plt
+
+	fig = plt.figure()
+	#Lower left and upper right corners of the lower 48
+	#23.555074, -123.837324
+	#50.670481, -66.303429
+	m = Basemap(llcrnrlon=-127.837324,llcrnrlat=23.555074,urcrnrlon=-66.303429,urcrnrlat=50.670481,\
+            rsphere=(6378137.00,6356752.3142), resolution='l',projection='merc',lat_ts=50.)
+
+	m.drawcoastlines()
+	m.fillcontinents()
+
+	#For each city and the next one in the route
+	for start, end in zip(route[:-1], route[1:]):
+		sLat, sLong = locations[start]
+		eLat, eLong = locations[end]
+		m.drawgreatcircle(sLong, sLat, eLong, eLat, linewidth=2, color='b')
+	
+	plt.show()
+	plt.clf()
+
 #Distance is on a sphere(ish), not a plane. Fite me, Euclid. 
 def distance(pA, pB):
 	#Have decimal degrees, want radians
@@ -50,20 +76,54 @@ def greedy_route(graph, startCity):
 				route.append(n[0])
 				unvisited.remove(n[0])
 				totalLength += n[1]['dist']
-				print len(unvisited)
-
+				
 	#Now we're done, and have an ordered list of cities, plus the total distance
-	print route
-	print totalLength
+	#print route
+	#print totalLength
 	return totalLength, route
 			
-def two_opt_route(graph):
-	#Pick a totally stupid random route
-	route = list(G.nodes())
-	random.shuffle(cities)
 
-	#Again, this fails because I don't have the data to get the distances for all pairs of cities. 
+def getLength(route, locations):
+	totalLen = 0
+	#for each pair in the ordred list, add the distance between them to the total distance
+	for start, end in zip(route[:-1], route[1:]):
+		totalLen += distance(locations[start], locations[end])
 
+	return totalLen
+
+def inner_two_opt(route, locations):
+	length = getLength(route, locations)
+
+	for ii, start in enumerate(route):
+		for kk in range(ii+1, len(route)):
+			#Do the two-opt swap
+			newRoute = route[:ii]
+			newRoute.extend(list(reversed(route[ii:kk])))
+			newRoute.extend(route[kk:])
+
+			#Make sure I didn't screw up my indices
+			assert len(newRoute) == len(route)
+			
+			# check if we made the route any shorter
+			newLength = getLength(newRoute, locations)
+			#print newLength
+			if newLength < length:
+				improvement = length - newLength
+				return improvement, newRoute
+
+	#Got through the whole route without improving it
+	return 0, route
+
+def two_opt_route(route, locations):
+	#Given a route, ideally one picked by the greedy algorithm, remove two edges and replace them with 
+	#two different edges. If that gets us a shorter route, keep it. 
+	
+	improvement, newRoute = inner_two_opt(route, locations)
+	while improvement > 0:
+		print improvement
+		improvement, newRoute = inner_two_opt(newRoute, locations)
+
+	return newRoute
 
 #Locations to coordinates
 allLocations = {}
@@ -75,7 +135,7 @@ for ii in range(66):
 		data = json.loads(jsonFile.read())
 
 		#Reverse geocode files have locations as well as names of places
-		coords = (data['results'][0]['geometry']['location']['lat'], data['results'][0]['geometry']['location']['lat'])
+		coords = (data['results'][0]['geometry']['location']['lat'], data['results'][0]['geometry']['location']['lng'])
 		allLocations[data['results'][0]['formatted_address']] = coords
 
 #Now add them to my big graph
@@ -122,8 +182,15 @@ for start_city in list(G.nodes()):
 	#save all the lengths
 	lengths.append(length)
 
-print max_len
 print route
-print "Average greedy route {0}".format(totalLen/count)
-print lengths
+print "Average greedy route {0}, this route {1}".format(totalLen/count, max_len)
+#print sorted(lengths)
+
+#plotRoute(allLocations, route)
 	
+route = two_opt_route(route, allLocations)
+
+#Get the two-opt route based on the greedy one
+print "Two-opt route length: {0}".format(getLength(route, allLocations))
+print route
+plotRoute(allLocations, route)

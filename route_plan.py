@@ -7,10 +7,21 @@
 import networkx
 import json
 import random
+from math import pi, acos, sin, cos
 
 #Empty graph, using a simple graph because I'm making the simplifying assumption 
 #that going from one place to another is not significantly different from going back. 
 G = networkx.Graph()
+
+#Distance is on a sphere(ish), not a plane. Fite me, Euclid. 
+def distance(pA, pB):
+	#Have decimal degrees, want radians
+	conv = pi/180
+	pA = (pA[0] * conv, pA[1] * conv)
+	pB = (pB[0] * conv, pB[1] * conv)
+	#From spherical law of cosines, should work for distances greater than a few meters
+	dAngle = acos(sin(pA[0]) * sin(pB[0]) + cos(pA[0]) * cos(pB[0]) * cos(abs(pA[1]-pB[1])))
+	return dAngle * 3959 #Earth's radius, in miles (actually 3,949.9028 to 3,963.1906, depending on location)
 
 #TSP makes the assumption that you can get to any city from any other city
 #My data set doesn't make that assumption, since it just has the distances to the 10 closest cities
@@ -54,23 +65,31 @@ def two_opt_route(graph):
 	#Again, this fails because I don't have the data to get the distances for all pairs of cities. 
 
 
+#Locations to coordinates
+allLocations = {}
+
 #This is stupid, but I know how many files I have...
 for ii in range(66):
-	filename = "{0}_distances.json".format(ii)
+	filename = "{0}_rev_geo.json".format(ii)
 	with open(filename, 'r') as jsonFile:
 		data = json.loads(jsonFile.read())
 
-		#Should be one
-		origin = data['origin_addresses'][0]
+		#Reverse geocode files have locations as well as names of places
+		coords = (data['results'][0]['geometry']['location']['lat'], data['results'][0]['geometry']['location']['lat'])
+		allLocations[data['results'][0]['formatted_address']] = coords
 
-		#Zip the destination address and information about getting there
-		trips = zip(data['destination_addresses'], data['rows'][0]['elements'])
-
-		#Now add them to my big graph
-		for trip in trips:
+#Now add them to my big graph
+for start in allLocations.keys():
+	startCoords = allLocations[start]
+	for end in allLocations.keys():
+		if start == end:
+			#No self-connections
+			continue 
+		else:
 			#Add an edge between the origin and each destination
 			#The values are duration in seconds and distance in meters
-			G.add_edge(origin, trip[0], duration = trip[1]['duration']['value'], dist = trip[1]['distance']['value'])
+			endCoords = allLocations[end]
+			G.add_edge(start, end, dist = distance(startCoords, endCoords))
 
 
 networkx.write_dot(G, "trip.dot")
@@ -79,9 +98,9 @@ networkx.write_dot(G, "trip.dot")
 #According to wikipedia, this averages a path 25% longer than the shortest possible,
 #but certain pathological arrangements can cause it to pick the worst route. 
 #I somehow doubt that Mr Toth set me up like that. 
-#cities = list(G.nodes())
-#random.shuffle(cities)
-#start = cities.pop()
-#greedy_route(G, start)
+cities = list(G.nodes())
+random.shuffle(cities)
+start = cities.pop()
+greedy_route(G, start)
 
 

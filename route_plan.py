@@ -120,7 +120,7 @@ def two_opt_route(route, locations):
 	
 	improvement, newRoute = inner_two_opt(route, locations)
 	while improvement > 0:
-		print improvement
+		#print improvement
 		improvement, newRoute = inner_two_opt(newRoute, locations)
 
 	return newRoute
@@ -168,29 +168,37 @@ max_len = float('inf')
 best_route = None
 count = 0
 totalLen = 0
-lengths  = []
+greedy_routes = {}
+two_opt_routes = {}
 
+# Starting from each city
 for start_city in list(G.nodes()):
+	#Get the greedy route
 	length, route = greedy_route(G, start_city)
-	#For calculating the average greedy route
-	totalLen += length
-	count += 1
-	#Save the best
-	if length < max_len:
-		max_len = length
-		best_route = route
-	#save all the lengths
-	lengths.append(length)
+	#I don't trust the previous length calculation
+	length = getLength(route, allLocations)
 
-print route
-print "Average greedy route {0}, this route {1}".format(totalLen/count, max_len)
-#print sorted(lengths)
+	#Save the greedy route, and length, by start city
+	greedy_routes[start_city] = (length, route)
 
-#plotRoute(allLocations, route)
-	
-route = two_opt_route(route, allLocations)
+	#Get the two-opt route based on this greedy route
+	route = two_opt_route(route, allLocations)
+	length = getLength(route, allLocations)
+	print length
+	print route
+	print "-----"
+	#Save the two-opt route
+	two_opt_routes[start_city] = (length, route)
 
-#Get the two-opt route based on the greedy one
-print "Two-opt route length: {0}".format(getLength(route, allLocations))
-print route
-plotRoute(allLocations, route)
+#Find the best optimized route
+shortLen = float('inf')
+shortStart = None
+
+for city in two_opt_routes.keys():
+	if two_opt_routes[city][0] < shortLen:
+		shortLen = two_opt_routes[city][0]
+		shortStart = city
+print "----- Best Route -----"
+print two_opt_routes[shortStart][1]
+print two_opt_routes[shortStart][0]
+plotRoute(allLocations, two_opt_routes[shortStart][1])
